@@ -40,13 +40,13 @@ Two important factors that determine the performance of apps are their launch ti
 
 When an app is launched, the app’s code—which includes the code of the static libraries it was linked with—is loaded into the app’s address space. Linking many static libraries into an app produces large app executable files. Below diagram shows the memory usage of an app that uses functionality implemented in static libraries. Applications with large executables suffer from slow launch times and large memory footprints. Also, when a static library is updated, its client apps don’t benefit from the improvements made to it. To gain access to the improved functionality, the app’s developer must link the app's object files with the new version of the library. And the apps users would have to replace their copy of the app with the latest version. Therefore, keeping an app up to date with the latest functionality provided by static libraries requires disruptive work by both developers and end users.
 
-￼https://github.com/shilpabansal/StaticAndDynamicLibraries/blob/main/StaticLibraryFlow.png
+![StaticLibraryFlow](https://github.com/shilpabansal/StaticAndDynamicLibraries/blob/master/StaticLibraryFlow.png)
 
 A better approach is for an app to load code into its address space when it’s actually needed, either at launch time or at runtime. The type of library that provides this flexibility is called dynamic library. Dynamic libraries are not statically linked into client apps; they don't become part of the executable file. Instead, dynamic libraries can be loaded (and linked) into an app either when the app is launched or as it runs.
 Note: Dynamic libraries are also known as dynamic shared libraries, shared objects, or dynamically linked libraries.
 
-Figure 2 shows how implementing some functionality as dynamic libraries instead of as static libraries reduces the memory used by the app after launch.
-￼https://github.com/shilpabansal/StaticAndDynamicLibraries/blob/main/￼DynamicLibraryFlow.png
+Below digrams shows how implementing some functionality as dynamic libraries instead of as static libraries reduces the memory used by the app after launch.
+![DynamicLibraryFlow](https://github.com/shilpabansal/StaticAndDynamicLibraries/blob/master/DynamicLibraryFlow.png)
 
 Using dynamic libraries, programs can benefit from improvements to the libraries they use automatically because their link to the libraries is dynamic, not static. That is, the functionality of the client apps can be improved and extended without requiring app developers to recompile the apps. Apps written for OS X benefit from this feature because all system libraries in OS X are dynamic libraries. This is how apps that use Carbon or Cocoa technologies benefit from improvements to OS X.
 Another benefit dynamic libraries offer is that they can be initialised when they are loaded and can perform clean-up tasks when the client app terminates normally. Static libraries don’t have this feature. 

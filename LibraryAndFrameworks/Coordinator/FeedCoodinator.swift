@@ -9,11 +9,6 @@ import Foundation
 import UIKit
 import FeedContent
 
-/*
- This is behaving like composing component, which is aware if FeedContent,
- Feed UI Module doesnt have to know anything about FeedContent module
- */
-
 class FeedCoordinator: Coordinator {
     var childCoordinators = [Coordinator]()
     var navigationController: UINavigationController

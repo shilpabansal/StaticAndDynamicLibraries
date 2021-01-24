@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		9LyY4+dhOLR3wwnMLvaXiKK1OtY=
+		XwG3KRA6YXSZQ1KflK181MQCl70=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		m3svA0yO4qqI6LNonlWPnyDXnCc=
+		ccZBDDiRigT8nxeqCcsxlLAsxKY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		Wkp9H+d/DBQAsHCo2HwYJ/WdcPw=
+		1T/3Z+YBgo2eoVFBw9wOIuYx64M=
 		</data>
 		<key>Base.lproj/Main.storyboardc/FeedListViewController.nib</key>
 		<data>
-		ZhKhUZU0+JSDbbbhmO835oOXVGk=
+		kF+vyKByhqB5ZIh7m9bNIY63YzA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/FeedContent.framework/FeedContent</key>
 		<data>
-		+etwXQPq+sKwB4ns7vGt1H4Bc0w=
+		SJwQOCodMhyzjO3xzbuQqQrYOkU=
 		</data>
 		<key>Frameworks/FeedContent.framework/Info.plist</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		RY8tbTdGHpE+kOA5gV3I7wFZeWs=
+		i0pu68HLBh2Z92b0Kxfs5XF+Aew=
 		</data>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -46,15 +46,15 @@
 		</data>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		o2Gg1ZUh+17uu6OR0kp0nU7opIk=
+		LtH/uTxpQx5seri0D2Ikq/ELBPs=
 		</data>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeResources</key>
 		<data>
-		B6G51M1kedviP5t4zKELA0BWGk4=
+		6jsh57aeB7mabdiycua4veyC6a4=
 		</data>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		XMangj8ZMrPVMMOKopPAaUkjLrc=
+		MEu8OajgSxd7vrNKiP8Tfp4DpYo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bxOFwRoxxR1QwZ8VT3+ZdtnyzyQQv7fNe6gl8gVPMNY=
+			ZLrVWvnIgcdekSz+GhTMxNw5r5g/3bAc3MEvRp4l33U=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -89,21 +89,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JdlOVK+xHdei5FPhKrsm79EHMtd98+HsEKH28W2NEo4=
+			yegOL1wSqnEU4mAQnyuA1TQlhETBESjP05+pZVm1BPs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MePJWsq9ojsKHqpmNlbcqiZf8mFaY3jhH7xOz8dTHmk=
+			y4q7fVvcsfKgcXO6uiNNCIxeD6lEhrACepQpwGA3zN0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/FeedListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1EzqGKT+VK5KfJQDZIuLNNbZ0wY5qOu3WTjemnSobyA=
+			Xb6gVcQ2nx4wy+BsKEBWbsXSuNTkOjURks8U6iV2xo4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -117,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UIpyeVed7GaO/iI+e1pWCFCRGtiCHmq3t9/qLZ18yg8=
+			iiNoHgaQLsHUAz20dQvC7gax+hJIWneHtzyqrNf2mzQ=
 			</data>
 		</dict>
 		<key>Frameworks/FeedContent.framework/Info.plist</key>
@@ -131,7 +131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GUAwGeCNliVV/kZzkNHBtMpofUB+KQzWgI1qW4eKsm8=
+			B/m2eQQ0J1v0gAKqNEfOA9lEOs2A3a8dlqABACGLzMQ=
 			</data>
 		</dict>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeRequirements</key>
@@ -145,21 +145,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IQY+bPa3LIsqXt94JCk6bdMTU/GsR5YE4DSqh2+eCik=
+			1xyL5vE/MEFcIQPf9Flc6jOrSgK41qWazBVbTfGHbuY=
 			</data>
 		</dict>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pchMXmw3KCnupfYbOCv0Nj4SA8L/iu7Bw1Oo/zxuDT8=
+			wmf7f0kJKQc9m3qvESlFaXK25tgL+YQDl6hsYIZuJc4=
 			</data>
 		</dict>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			etBFtgIeLSAzmAnm2Zy1L6Y8UtzlvhKVl98wW9Sloqg=
+			ypnxbshkgsWMo3f4uQYAz2hjNjQDzwOij+ieJ8SnQi8=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

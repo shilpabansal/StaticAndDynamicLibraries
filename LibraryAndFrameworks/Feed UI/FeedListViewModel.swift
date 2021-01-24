@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import FeedAbstract
+import FeedContent
 
 class FeedListViewModel {
     let feedContent: FeedContentProtocol?

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import FeedAbstract
 
 public class RemoteFeedContent: FeedContentProtocol {
     public init() {}

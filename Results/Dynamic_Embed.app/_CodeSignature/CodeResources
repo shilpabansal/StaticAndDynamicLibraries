@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		SRPo8cYQBvR7FFCLf/p+P74Ykrg=
+		w/dks73Scc/E6G7fF+aPCWqrWR8=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		qyl+px25N/GlzsOrQ/M3/2h3PAs=
+		bX7+iVhVCxKJLvI3Tni7ImTwY1E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		86IlDvUpjFuNy8c4YecAZBNjYuU=
+		UcRoI2EsxopNvRdQlZED7/ulC1Y=
 		</data>
 		<key>Base.lproj/Main.storyboardc/FeedListViewController.nib</key>
 		<data>
-		pKoZ2xE/R7l5jpjROs/hVYFFsDE=
+		APdt16Zf44Id7klB9+2eycmX9f8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/FeedContent.framework/FeedContent</key>
 		<data>
-		xTfGEiJPgTMKCIgaKN6tf3IEL1k=
+		RPjgo5bXZDoig8H+S3JeLn7kufE=
 		</data>
 		<key>Frameworks/FeedContent.framework/Info.plist</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Frameworks/FeedContent.framework/_CodeSignature/CodeResources</key>
 		<data>
-		1agHCgFc4dk6TNqCxUDVkJNtcHY=
+		nJFm8Rprbl3+xSa7mkMz2oxAY74=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			heAdFbOvpQvq9S6Em6MdWXnQ2U4uorSRLmaQFgAtEZM=
+			ZqJRmyd30n/ODa+c2Dicg4+3mOTpigW9DUMeJMUdR/s=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -73,21 +73,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3uuU4QCXRxXO2iZ8/Zq8MujlJV4gt9eJupcm8ToV/Ck=
+			9xSQu5FwQMnb2Ed0/3pkf8VwaD2wYkgiIbR8UyhsqHA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pWUD/XtF2aiUK8dWgj3HerScVn7wMej0CfGMmCkg7lw=
+			InqA9Ln9ykF5w4CTZvLZUX2HD43zrGXCJzfdmPzKf9U=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/FeedListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z0SGaZQJ8M17qmmBskbtm6vLeSrmiphwb7Zwx4B5Fpk=
+			LBVecK+030wYKAOcJepIEL6d1G12RUVsc7XECTne5bY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fWAZoP2yGtmsobQRjzVtUXB4Cyuucqg3kwLgjUU0HnY=
+			fqqmQsaCV5fXNkzkd+3w2ArAomvzRgWQ9UpOyg1MYg4=
 			</data>
 		</dict>
 		<key>Frameworks/FeedContent.framework/Info.plist</key>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5e4cTm0JEoK0fCVMnyy8wckcimQ3A1u426NZdIHGt9o=
+			a8PQQXZJQptNbq2T5QEEiWnAUgaxx+gDR7go46z4vm0=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

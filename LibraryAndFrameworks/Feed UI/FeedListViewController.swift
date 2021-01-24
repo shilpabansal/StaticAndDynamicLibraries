@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import FeedAbstract
+import FeedContent
 
 class FeedListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var feedTableView: UITableView!

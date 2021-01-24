@@ -18,17 +18,16 @@ Although all bundles support the same basic features, there are variations in th
 
 
 Framework:
-It is a package that can contain resources such as dynamic/static libraries, strings, headers, images, storyboards etc. With small changes to its structure, it can even contain other frameworks. Such aggregate is known as umbrella framework.
+It is a package that can contain resources such as dynamic libraries, strings, headers, images, storyboards etc.
 Frameworks are also bundles ending with .framework extension. They can be accessed by NSBundle / Bundle class from code and, unlike most bundle files, can be browsed in the file system that makes it easier for developers to inspect its contents. Frameworks have versioned bundle format which allows to store multiple copies of code and headers to support older program version
 
 
-Static library - a unit of code linked at compile time, which does not change. (Can only contain code)
+Static library - a unit of code linked at compile time, which does not change. (Can only contain code). The code that the app uses is copied to the generated executable file by a static linker during compilation time.  
 However, iOS static libraries are not allowed to contain images/assets (only code). You can get around this challenge by using a media bundle though.
 
-Dynamic library - a unit of code and/or assets linked at runtime that may change.
-However, only Apple is allowed to create dynamic libraries for iOS . You're not allowed to create these, as this will get your app rejected.
-In the case of static libraries (*.a), the code that the app uses is copied to the generated executable file by a static linker during compilation time.  
-Dynamic libraries (*.dylib) are different from static libraries in the sense that they are linked with the app’s executable at runtime, but not copied into it. As a result, the executable is smaller and, because the code is loaded only when it is needed, the startup time is typically faster. They are usually shared between applications, therefore the system needs to store only one copy of the library and let different processes access it. As a result, invoking code and data from dynamic libraries happens slower than from the static ones.
+Dynamic library - a unit of code and/or assets linked at runtime that may change. They are different from static libraries in the sense that they are linked with the app’s executable at runtime, but not copied into it. As a result, the executable is smaller and, because the code is loaded only when it is needed, the startup time is typically faster. They are usually shared between applications, therefore the system needs to store only one copy of the library and let different processes access it. As a result, invoking code and data from dynamic libraries happens slower than from the static ones.
+
+Dynamic libraries outside of a framework bundle, which typically have the file extension .dylib, are not supported on iOS, watchOS, or tvOS, except for the system Swift libraries provided by Xcode. You're not allowed to create these, as this will get your app rejected. Only Apple is allowed to create dynamic libraries for iOS . System iOS and macOS libraries are dynamic. This means that your app will receive improvements from Apple’s updates without new build submission. This also may lead to issues with interoperability. That’s why it is always a good idea to test the app on the new OS version before it becomes released.
 
 Text Based .dylib Stubs
 When we link system libraries, such as UIKit or Foundation, we don’t want to copy their entirety into the app, because it would be too large. Linker is also strict about this and does not accept shared .dylib libraries to be linked against, but only .tbd ones. So what are those?
